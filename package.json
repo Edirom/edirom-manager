@@ -6,12 +6,24 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "express": "node server.js"
   },
   "dependencies": {
+    "chokidar": "^3.3.1",
     "core-js": "^2.6.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "file-type": "^13.1.2",
+    "filesize": "^6.1.0",
+    "session-file-store": "^1.4.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
     "vue": "^2.6.10",
-    "vuex": "^3.0.1"
+    "vue-socket.io": "^3.0.7",
+    "vuex": "^3.0.1",
+    "xmldom": "^0.3.0",
+    "xpath": "0.0.27"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",

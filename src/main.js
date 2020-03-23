@@ -2,7 +2,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
 
-Vue.config.productionTip = false
+import './../public/resources/css/spectre.min.css'
+import './../public/resources/css/spectre-exp.min.css'
+import './../public/resources/css/spectre-icons.min.css'
+
+// Vue.config.productionTip = false
 
 new Vue({
   store,
